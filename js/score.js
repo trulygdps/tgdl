@@ -6,7 +6,7 @@
  */
 const baseFactor = 0.0005832492374192035997815;
 
-const scale = 5;
+const scale = 1;
 
 /**
  * Calculate the score awarded when having a certain percentage on a list level
@@ -18,7 +18,7 @@ const scale = 5;
  */
 export function score(rank, percent, minPercent, levelCount) {
     const b = (levelCount - 1) * baseFactor
-    const a = 600 * Math.sqrt(b)
+    const a = 500 * Math.sqrt(b)
 
     let score = (a / Math.sqrt((rank - 1) / 50 + b) - 100) *
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
