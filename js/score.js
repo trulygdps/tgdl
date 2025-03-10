@@ -18,7 +18,7 @@ const scale = 1;
  */
 export function score(rank, percent, minPercent, levelCount) {
     const b = (levelCount - 1) * baseFactor
-    const a = 500 * Math.sqrt(b)
+    const a = 600 * Math.sqrt(b)
 
     let score = (a / Math.sqrt((rank - 1) / 50 + b) - 100) *
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
