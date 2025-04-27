@@ -37,7 +37,7 @@ body {
 header,
 main {
     background-color: var(--color-background);
-    color: #0048a4;
+    color: var(--color-on-background);
     display: grid;
     grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
             16em,
@@ -51,7 +51,7 @@ header {
     padding-inline: calc(25vw - 10rem);
     height: 4rem;
     background-color: var(--color-primary);
-    color: #0048a4;
+    color: var(--color-on-primary);
 }
 @media screen and (min-width: 1366px) {
     header {
@@ -103,7 +103,7 @@ input[type="checkbox"] {
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: ;
   }
 
   /* Handle */
