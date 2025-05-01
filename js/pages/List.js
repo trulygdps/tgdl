@@ -116,10 +116,6 @@ export default {
                             </ol>
                         </ol>
                     </template>
-                     <h3>> How to Submit Records</h3>
-                    <p>
-                        Join our discord server, and  use /record submit
-                    </p>
                     <h3>> Submission Requirements</h3>
                     <p>
                         When submitting your record, please ensure that it complies with the following guidelines:
@@ -128,7 +124,7 @@ export default {
                         - Your recording is a complete playthrough of the level from 0-100 without any cuts (if there are cuts in your video, please include an uncut raw footage)
                     </p>
                      <p>
-                        - Your completion needs to have clicks. If it doesn't (or if it only does for a part of the level, and not the entire run), you have to provide a raw footage with clicks. If you don't, your record will be rejected. Mobile players are NOT exempt from this rule, recorded taps are required.  
+                        - Your completion needs to have clicks. If you can't record clicks, you'll need to provide raw footage.  
                     </p>
 
                     <p>
@@ -156,9 +152,6 @@ export default {
                         - Raw footage (or a pointercrate record of the level) AND clicks will ALWAYS be required for levels in the top 250.
                     </p>
                     <p>
-                        - You always need handcam for every level that is listed as "(Solo)" on the list.
-                    </p>
-                    <p>
                         - Refer to <a href="https://docs.google.com/spreadsheets/d/10AjUUcTpAzOqdfnbz0wtYskL9TdwT4Onv_Fldt5NXBg/edit?usp=sharing">-This Sheet-</a> for a list of allowed and disallowed hacks
                     </p>
                     <h3>> Why was my record denied?</h3>
@@ -172,13 +165,13 @@ export default {
                         Is the level placed on the list? (#pending-changes)
                     </p>
                     <p>
-                        Was the submission command filled out correctly?
+                        Was the submission form filled out correctly?
                     </p>
                     <p>
                         Was the record submitted with several links?
                     </p>
                     <p>
-                        Note: You will be pinged in #records with the reason why your record was denied. If you are still unsure of why it was denied, or if the record was wrongfully denied, please make a post in #support or DM any list staff on Discord
+                       
                     </p>
                 </div>
             </div>
